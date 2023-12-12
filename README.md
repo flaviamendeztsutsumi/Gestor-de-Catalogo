@@ -10,7 +10,12 @@
   - [Para el Cliente](#para-el-cliente)
 - [Cómo Iniciar la Aplicación](#cómo-iniciar-la-aplicación)
 - [Instalación](#instalación)
+- [uso](#uso)
+- [Diagrama uml](#Diagrama uml)
 - [Persistencia de Datos](#persistencia-de-datos)
+- [Licensia](#Licensia)
+
+
 
 ## Funcionalidades Destacadas
 
@@ -50,11 +55,29 @@
 - Clona este repositorio a tu máquina local utilizando el siguiente comando:
   ```bash
   git clone https://github.com/flaviamendeztsutsumi/Gestor-de-Catalogo.git
+
+## Uso
+
+1. **Compilación**: Compila el código utilizando tu entorno de desarrollo favorito o mediante la línea de comandos:
+  make compilar
+
+2. **Ejecución**: Ejecuta la aplicación:
+
+    make ejecutar
+
+3. **Interactuar con la Aplicación**: Sigue las instrucciones en la consola para realizar operaciones en la tienda.
+
+4. **Salir del Programa**: Al salir del programa, el estado actual del almacén se guarda automáticamente en un archivo llamado "almacen.dat".
+## Dependencias
+
+- JDK 8 o superior.
+
 ## Diagrama uml
-En el siguiente link esta la imagen del diagrama UML.
-![DiagramaUml](Diagrama uml.png)
+El repositorio hay una foto del diagrama.
 
 ---
 
 Esperamos que disfrutes utilizando **Tienda de zapatillas**. Para consultas o comentarios, no dudes en ponerte en contacto con nosotros. ¡Agradecemos tu elección de nuestra aplicación!
-Este proyecto está licenciado bajo la Licencia MIT - mira el archivo [LICENSE]para más detalles.
+## Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).
