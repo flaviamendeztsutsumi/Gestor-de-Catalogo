@@ -94,7 +94,7 @@ public class Interfaz
                 menuDuenno();
                 opc = scanner.nextInt(); 
                 scanner.nextLine();
-                comandosDueño(opc); 
+                comandosDueno(opc); 
             } else if (escribir == 2) {
                 menuCliente();
                 opc = scanner.nextInt(); 
@@ -111,7 +111,7 @@ public class Interfaz
      * Ejecuta los comandos del dueño basados en la opción seleccionada.
      * @param opcion La opción seleccionada por el dueño.
      */
-    private void comandosDueño(int opcion) 
+    private void comandosDueno(int opcion) 
     {
         if (opcion == 1) {
             agregarZapatilla();

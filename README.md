@@ -1,5 +1,4 @@
-# Gestor-de-Catalogo
-# Gestor-de-Catalogo
+
 # Tienda de Zapatillas
 
 ¡Bienvenido a **Tienda de Zapatillas**, una aplicación sencilla de gestión diseñada para una tienda de calzado! Esta aplicación brinda una interfaz amigable tanto para el dueño de la tienda como para los clientes, permitiéndoles realizar diversas operaciones relacionadas con las zapatillas en el almacén.
@@ -50,7 +49,10 @@
 
 - Clona este repositorio a tu máquina local utilizando el siguiente comando:
   ```bash
-  git clone https://ruta/del/repo.git
+  git clone https://github.com/flaviamendeztsutsumi/Gestor-de-Catalogo.git
+## Diagrama uml
+En el siguiente link esta la imagen del diagrama UML.
+![DiagramaUml](Diagrama uml.png)
 
 ---
 
