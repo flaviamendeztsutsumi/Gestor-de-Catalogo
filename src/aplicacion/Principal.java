@@ -3,7 +3,7 @@ package aplicacion;
 
 import presentacion.*;
 
-// La clase Principal contiene el método main que inicia la aplicación+
+// La clase Principal contiene el método main que inicia la aplicación
 public class Principal {
 
     /**

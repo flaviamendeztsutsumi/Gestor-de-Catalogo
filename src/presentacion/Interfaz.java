@@ -36,21 +36,20 @@ public class Interfaz
      * Lee el estado anterior del almacén desde un archivo.
      */
     private void leer() {
-        ObjectInputStream obj;
-        File file = new File("Zapatilla.txt");
-        try {
-            obj = new ObjectInputStream(new FileInputStream(file));
-            try {
+        File file = new File("almacen.dat");
+
+        if (file.exists()) {
+            try (ObjectInputStream obj = new ObjectInputStream(new FileInputStream(file))) {
                 almacen = (Almacen) obj.readObject();
-            } catch (Exception e) {
-                System.out.println(e);
+                System.out.println("Leído");
+            } catch (IOException | ClassNotFoundException e) {
+                System.out.println("Error al leer el archivo del almacén: " + e.getMessage());
             }
-            obj.close();
-            System.out.println("Leído");
-        } catch (Exception e) {
-            System.out.println("No leído");
+        } else {
+            System.out.println("No hay archivo de almacén existente. Se ha creado un almacén nuevo.");
         }
     }
+    
 
     /**
      * Menú para el dueño de la tienda.
