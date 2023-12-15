@@ -1,8 +1,12 @@
 
-# Tienda de Zapatillas
+# Tienda de Zapatilla
 
 
 ¡Bienvenido a **Tienda de Zapatillas**, una aplicación sencilla de gestión diseñada para una tienda de calzado! Esta aplicación brinda una interfaz amigable tanto para el dueño de la tienda como para los clientes, permitiéndoles realizar diversas operaciones relacionadas con las zapatillas en el almacén.
+## Documentación
+Proyecto creado por: Flavia Mendez
+Versión: Vesión 1.0
+Fecha de creación: 11/27/2023
 
 ## Contenido
 
@@ -15,6 +19,7 @@
 - [Diagrama uml](#Diagrama uml)
 - [Persistencia de Datos](#persistencia-de-datos)
 - [Licensia](#Licensia)
+-  [Contacto](#Contacto)
 
 
 
@@ -75,6 +80,7 @@
 
 ## Diagrama uml
 En el repositorio hay una foto del diagrama.
+[Diagrama-UML.png](Diagrama-UML.png)
 
 ---
 
@@ -84,6 +90,9 @@ Esperamos que disfrutes utilizando **Tienda de zapatillas**. Para consultas o co
 Copyright © 2023 Flavia Mendez
 
 Este proyecto está licenciado bajo la Licencia Apache 2.0. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+## Contacto 
+Puedes contactarme a traves del siguiente correo. flaviaestefany.mendeztsutsumi@usp.ceu.es.
 
 
 
