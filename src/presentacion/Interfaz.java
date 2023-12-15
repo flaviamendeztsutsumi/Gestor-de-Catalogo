@@ -86,7 +86,7 @@ public class Interfaz
     public void iniciar() 
     {
         int opc;
-        System.out.println("Si eres dueño 1 y si eres cliente:");
+        System.out.print("Si eres dueño 1 y si eres cliente:");
         int escribir = scanner.nextInt(); 
         do {
             if (escribir == 1) {
