@@ -2,6 +2,7 @@ package dominio;
 
 import java.io.Serializable;
 
+
 /**
  * La clase Zapatilla representa un objeto de tipo zapato en una tienda.
  * Esta clase implementa la interfaz Serializable para que las instancias puedan ser convertidas a bytes y viceversa.

@@ -10,6 +10,7 @@ import java.io.ObjectOutputStream;
 import java.util.Scanner;
 import dominio.*;
 
+
 /**
  * La clase Interfaz es la interfaz de usuario que maneja la interacción con el programa.
  */

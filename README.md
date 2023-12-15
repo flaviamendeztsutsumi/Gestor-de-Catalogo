@@ -1,6 +1,7 @@
 
 # Tienda de Zapatillas
 
+
 ¡Bienvenido a **Tienda de Zapatillas**, una aplicación sencilla de gestión diseñada para una tienda de calzado! Esta aplicación brinda una interfaz amigable tanto para el dueño de la tienda como para los clientes, permitiéndoles realizar diversas operaciones relacionadas con las zapatillas en el almacén.
 
 ## Contenido
@@ -73,11 +74,17 @@
 - JDK 8 o superior.
 
 ## Diagrama uml
-El repositorio hay una foto del diagrama.
+En el repositorio hay una foto del diagrama.
 
 ---
 
 Esperamos que disfrutes utilizando **Tienda de zapatillas**. Para consultas o comentarios, no dudes en ponerte en contacto con nosotros. ¡Agradecemos tu elección de nuestra aplicación!
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+Copyright © 2023 Flavia Mendez
+
+Este proyecto está licenciado bajo la Licencia Apache 2.0. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+
+
+
